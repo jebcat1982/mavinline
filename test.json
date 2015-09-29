@@ -1,0 +1,170 @@
+{
+    "SYSTEM_TIME": {
+        "time_unix_usec": "0",
+        "time_boot_ms": "195596"
+    },
+    "RAW_IMU": {
+        "xgyro": "0",
+        "zmag": "345",
+        "ygyro": "0",
+        "xmag": "-205",
+        "zacc": "-979",
+        "xacc": "-37",
+        "yacc": "9",
+        "zgyro": "0",
+        "ymag": "151",
+        "time_usec": "192997278"
+    },
+    "MEMINFO": {
+        "brkval": "0",
+        "freemem": "50560"
+    },
+    "HWSTATUS": {
+        "I2Cerr": "0",
+        "Vcc": "4052"
+    },
+    "SCALED_IMU2": {
+        "xgyro": "-6",
+        "zmag": "262",
+        "ygyro": "11",
+        "xmag": "-270",
+        "zacc": "-986",
+        "time_boot_ms": "195595",
+        "yacc": "8",
+        "zgyro": "2",
+        "ymag": "131",
+        "xacc": "-18"
+    },
+    "SERVO_OUTPUT_RAW": {
+        "servo4_raw": "1100",
+        "servo2_raw": "1100",
+        "servo6_raw": "0",
+        "time_usec": "192997849",
+        "servo1_raw": "1100",
+        "servo8_raw": "0",
+        "servo5_raw": "0",
+        "servo3_raw": "1100",
+        "port": "0",
+        "servo7_raw": "0"
+    },
+    "AHRS": {
+        "error_rp": "0.00232909526676",
+        "error_yaw": "0.00508056022227",
+        "renorm_val": "0.0",
+        "accel_weight": "0.0",
+        "omegaIy": "-0.0034671514295",
+        "omegaIx": "0.00198149681091",
+        "omegaIz": "-0.00117635272909"
+    },
+    "POWER_STATUS": {
+        "Vcc": "4052",
+        "flags": "4",
+        "Vservo": "16"
+    },
+    "ATTITUDE": {
+        "pitchspeed": "0.000305935740471",
+        "yaw": "-2.51087069511",
+        "rollspeed": "-0.000227010808885",
+        "time_boot_ms": "195596",
+        "pitch": "0.00620949920267",
+        "yawspeed": "8.14907252789e-08",
+        "roll": "-0.0350383222103"
+    },
+    "VFR_HUD": {
+        "throttle": "0",
+        "groundspeed": "0.0",
+        "airspeed": "0.0",
+        "heading": "216",
+        "alt": "-0.310000002384",
+        "climb": "0.0"
+    },
+    "GLOBAL_POSITION_INT": {
+        "vx": "0",
+        "lon": "0",
+        "time_boot_ms": "195596",
+        "hdg": "21614",
+        "relative_alt": "-310",
+        "lat": "0",
+        "vy": "0",
+        "alt": "-17000",
+        "vz": "0"
+    },
+    "SYS_STATUS": {
+        "onboard_control_sensors_present": "6421551",
+        "load": "172",
+        "battery_remaining": "99",
+        "errors_count4": "0",
+        "drop_rate_comm": "0",
+        "errors_count2": "0",
+        "errors_count3": "0",
+        "errors_comm": "0",
+        "current_battery": "2",
+        "errors_count1": "0",
+        "onboard_control_sensors_health": "6421551",
+        "onboard_control_sensors_enabled": "6396975",
+        "voltage_battery": "30"
+    },
+    "GPS_RAW_INT": {
+        "fix_type": "1",
+        "cog": "0",
+        "epv": "65535",
+        "lon": "0",
+        "time_usec": "0",
+        "eph": "9999",
+        "satellites_visible": "0",
+        "lat": "0",
+        "alt": "-17000",
+        "vel": "0"
+    },
+    "STATUSTEXT": {
+        "text": "PX4v2 00480024 3034510A 37383933",
+        "severity": "1"
+    },
+    "SCALED_PRESSURE": {
+        "press_abs": "1012.8571167",
+        "time_boot_ms": "195595",
+        "temperature": "3786",
+        "press_diff": "0.0484374985099"
+    },
+    "HEARTBEAT": {
+        "custom_mode": "0",
+        "system_status": "3",
+        "base_mode": "81",
+        "autopilot": "3",
+        "type": "2",
+        "mavlink_version": "3"
+    },
+    "PARAM_VALUE": {
+        "param_count": "417",
+        "param_index": "416",
+        "param_value": "100.0",
+        "param_type": "4",
+        "param_id": "TERRAIN_SPACING"
+    },
+    "MISSION_CURRENT": {
+        "seq": "0"
+    },
+    "RC_CHANNELS_RAW": {
+        "chan4_raw": "1520",
+        "chan2_raw": "1499",
+        "chan6_raw": "1499",
+        "time_boot_ms": "195596",
+        "chan1_raw": "1521",
+        "chan5_raw": "1555",
+        "chan3_raw": "1018",
+        "rssi": "0",
+        "chan7_raw": "1500",
+        "chan8_raw": "1500",
+        "port": "0"
+    },
+    "NAV_CONTROLLER_OUTPUT": {
+        "wp_dist": "0",
+        "nav_pitch": "0.0",
+        "target_bearing": "0",
+        "nav_roll": "0.0",
+        "aspd_error": "0.0",
+        "alt_error": "0.315781235695",
+        "xtrack_error": "0.0",
+        "nav_bearing": "216"
+    }
+}
