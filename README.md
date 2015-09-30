@@ -34,29 +34,49 @@
 * param                : parameter handling
 * rally                : rally point control
 * rc                   : RC input control
+  * This commend modify the value of rc stack. We can control the copter with computer without rc controler.
 * rcbind               : bind RC receiver
 * reboot               : reboot autopilot
+  * Reboot the aircraft, NEVER USE IT WHILE FLYING.
 * relay                : relay commands
 * repeat               : repeat a command at regular intervals
 * reset                : reopen the connection to the MAVLink master
+  * Reconnect the master
 * script               : run a script of MAVProxy commands
+  * Run commends in a file
 * servo                : servo commands
+  * Control the servos (5 to 8)
+  * Format, `servo set NO. PWM`
+  * 1 to 4 is for flying servos
+  * PWM value in the range of 1100 to 1950
 * set                  : mavproxy settings
 * setspeed             : do_change_speed
+  * Change the velocity
 * setup                : go into setup mode
+  * Error in terminal
 * setyaw               : condition_yaw
+  * Set the yaw's condition?
 * shell                : run shell command
 * status               : show status
+  * Write the status to a file or stdout.
 * switch               : flight mode switch control
+  * Change the flight mode
+  * `switch NO.`
+  * Also can type `mode MODENAME`
 * takeoff              : takeoff
+  * Takeoff, nerver try
+  * `takeoff contance`
 * terrain              : terrain control
 * time                 : show autopilot time
 * tuneopt              : Select option for Tune Pot on Channel 6 (quadcopter only)
+  * Adjust something on Channel 6
 * up                   : adjust pitch trim by up to 5 degrees
+  * Adjust pitch trim
 * velocity             : velocity
 * version              : show version
 * watch                : watch a MAVLink pattern
 * wp                   : waypoint management
+  * Waypoint.
 
 ### Status
 
